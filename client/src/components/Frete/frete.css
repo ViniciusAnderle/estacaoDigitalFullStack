@@ -1,0 +1,44 @@
+.frete{
+    display: flex;
+    align-items: center;
+}
+p{
+    color: black;
+    display: flex;
+    white-space: nowrap;
+}
+button{
+    background: #13aeeb;
+      border-radius: 10px;
+      color: #fff;
+      border: 1px solid black;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 10px;
+      white-space: nowrap; 
+}
+button:hover{
+    background: #1293e9;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+input{
+    background: rgb(49, 49, 49);
+      border-radius: 10px;
+      color: #fff;
+      border: 1px solid #13aeeb;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 10px;
+      padding: 3px;
+  }
+  input:hover{
+    background: rgb(63, 62, 62);
+    opacity: 0.8;
+    transition: 0.5s;
+}

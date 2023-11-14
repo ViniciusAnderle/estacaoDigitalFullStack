@@ -1,0 +1,64 @@
+html,body{
+  background-color: gray;
+}
+.product-card {
+    padding: 120px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .card-image{
+    width: 30%;
+    padding: 10px;
+    display: flex;
+  }
+  .card-title {
+      width: 600px; 
+      white-space: nowrap; 
+      overflow: hidden; 
+      text-overflow: ellipsis; 
+  }
+  .Card-info{
+    padding: 50px;
+    display: table-column;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    justify-content: right;
+    width: 300px;
+  }
+  .Card-info button{
+      background: #13aeeb;
+      border-radius: 10px;
+      color: #fff;
+      border: 1px solid black;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 10px;
+  }
+  .Card-info button:hover{
+    background: #1293e9;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+  .Card-info input{
+    background: rgb(49, 49, 49);
+      border-radius: 10px;
+      color: #fff;
+      border: 1px solid #13aeeb;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 10px;
+      padding: 3px;
+  }
+  .Card-info input:hover{
+    background: rgb(63, 62, 62);
+    opacity: 0.8;
+    transition: 0.5s;
+}

@@ -1,0 +1,16 @@
+.quant{
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+.text{
+    width: auto;
+    border: 1px solid #13aeeb;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgb(49, 49, 49);
+    justify-content: center;
+    display: flex;
+    white-space: nowrap; 
+}

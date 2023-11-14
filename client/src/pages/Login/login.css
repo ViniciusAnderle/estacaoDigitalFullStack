@@ -1,0 +1,120 @@
+.cont {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #222121;
+  color: white;
+}
+
+.cont{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.cont .header span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 15px;
+}
+
+
+.cont form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cont form  .inputcont {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.cont form  .inputcont label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 8px;
+}
+
+.cont form  .inputcont input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  width: 520px;
+  height: 49px;
+  border: 1px solid #13aeeb;
+  border-radius: 12px;
+  margin-bottom: 12px;
+
+}
+
+.cont form a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #13aeeb;
+}
+
+.cont form .button {
+  width: 520px;
+  height: 48px;
+  background: #13aeeb;
+  border-radius: 12px;
+  color: #fff;
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.cont form .button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.cont form .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px
+}
+
+.cont form .footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+}
+
+.cont form .footer a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #13aeeb;
+}
+
+h2{
+  color: #13aeeb;
+}
+
+.voltar{
+  color: #13aeeb;
+}

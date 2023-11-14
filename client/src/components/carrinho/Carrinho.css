@@ -1,0 +1,45 @@
+.carrinho {
+  width: 100%;
+  max-width: 330px;
+  background-color: white;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 100px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transform: translate(110%, 0);
+  transition: all 400ms ease;
+  margin-top: 15px;
+  background: #9fdff9;
+
+}
+
+.itens {
+  flex-grow: 1;
+  overflow: auto;
+  
+}
+
+.valor {
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 35px 7px 15px;
+  border-top: 1px solid #ddd;
+  background: #6ad0f8;
+  border-radius: 15px;
+
+}
+
+.itens .itens:last-child {
+  border-bottom: none;
+}
+
+.aparente {
+  transform: translate(0, 0);
+}
+h2{
+  padding: 3px;
+}
